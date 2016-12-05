@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_experience_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/fragment_experience_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".75"
+        android:background="@null"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageView
+                android:id="@+id/fragment_experience_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/medium_margin"
+                android:alpha="0.5"
+                android:background="@null"
+                />
+
+            <TextView
+                android:id="@+id/fragment_experience_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_experience_image"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/medium_padding"
+                android:text="@string/info_experience"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_medium"
+                android:textStyle="italic"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

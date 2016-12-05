@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "title": "Programming",
+      "subtitle": " OOP, OOD, Design Patterns, Algorithms",
+      "rating": 8
+    },
+    {
+      "title": "Java",
+      "subtitle": "Java SE, Swing, JDBC, Big data, RxJava, Kotlin",
+      "rating": 9
+    },
+    {
+      "title": "Android SDK",
+      "subtitle": "Android Sdk, Dagger2, Retrofit, Volley, Glide, DataBinding, Realm, StorIO, SQLBrite, Picasso, Fresco, LeakCanary, Stetho, Android pallete, Material design, RxAndroid",
+      "rating": 8
+    },
+    {
+      "title": "Web services",
+      "subtitle": "REST/SOAP, XML/JSON",
+      "rating": 8
+    },
+    {
+      "title": "Data bases",
+      "subtitle": "MySQL, SQLite, Graph, MSSQL, ODBC",
+      "rating": 8
+    },
+    {
+      "title": "API",
+      "subtitle": "VK, Google Maps, Youtube, Google+, Firebase, Facebook",
+      "rating": 8
+    },
+    {
+      "title": "Other",
+      "subtitle": "CSS3, HTML5, XML, JSON, Photoshop, Agile, Git, JUnit",
+      "rating": 6
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_contact_me_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    >
+
+    <ImageView
+        android:id="@+id/fragment_contact_me_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".75"
+        android:background="@null"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            >
+
+            <ImageView
+                android:id="@+id/fragment_contact_me_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:alpha="0.5"
+                android:background="@null"
+                />
+
+            <TextView
+                android:id="@+id/fragment_contact_me_button"
+                style="@style/LightButton"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fragment_contact_me_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/medium_margin"
+                android:text="@string/contacts_contact_me"
+
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

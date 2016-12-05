@@ -1,0 +1,33 @@
+<resources>
+
+    <!--APP NAME-->
+    <string name="app_name">Summary</string>
+
+    <!--INFO-->
+    <string name="info_name">Alexander Poltavets</string>
+    <string name="info_position">Android developer</string>
+    <string name="info_hello">Hi, my name is Alex!\n I am Android developer.</string>
+    <string name="info_bio">I have more than 3 years software development experience. A lot of own apps in Google Play. \nBig portfolio of my apps, same of then has more than 1m. downloads in Google Play. \nCertified Android Instructor.</string>
+    <string name="info_experience">I develop apps for Android OS more than 1,5 years.\n I have big experience of Android development and a lot of libraries, APIs and technologies. </string>
+    <string name="info_email">alex.mediaportal@gmail.com</string>
+
+
+    <!--TITLES-->
+    <string name="title_main">Main</string>
+    <string name="title_skills">Skills</string>
+
+    <!--DRAWER-->
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <!--CONTACTS-->
+    <string name="contact_email">Email: <u>alex.mediaportal@gmail.com</u></string>
+    <string name="contact_skype">Skype: <u>alex.poltavets</u></string>
+    <string name="contact_phone">Phone: <u>+38 063-188-91-52</u></string>
+    <string name="contact_github">Github: <u>MediaPortal1</u></string>
+    <string name="contact_linkedin">LinkedIn: <u>alexander-poltavets-5a2823119</u></string>
+    <string name="contact_play">Play Market: <u>/developer?id=Alex+Poltavets</u></string>
+    <string name="contacts_contact_me">Contact me</string>
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_main"
+        android:icon="@mipmap/ic_account_circle"
+        android:title="@string/title_main"
+        />
+    <item
+        android:id="@+id/menu_skills"
+        android:icon="@mipmap/ic_android"
+        android:title="@string/title_skills"
+        />
+</menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_face_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/fragment_face_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".95"
+        android:background="@null"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fragment_face_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp"
+            android:src="@drawable/photo_card"
+            />
+
+        <TextView
+            android:id="@+id/fragment_contacts_text_skype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_face_image"
+            android:layout_marginTop="@dimen/small_margin"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/medium_padding"
+            android:text="@string/info_hello"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_medium"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/fragment_face_text_bio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fragment_contacts_text_skype"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/medium_padding"
+            android:text="@string/info_bio"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:textStyle="italic"
+            />
+
+    </RelativeLayout>
+</FrameLayout>

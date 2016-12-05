@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="skill"
+            type="poltavets.ua.com.summary.model.entities.Skill"
+            />
+
+        <import
+            alias="view"
+            type="android.view.View"
+            />
+    </data>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/skill_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:text="@{skill.title}"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_medium"
+            android:visibility="@{skill.title != null ? view.VISIBLE : view.INVISIBLE}"
+            />
+
+        <TextView
+            android:id="@+id/skill_item_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/skill_item_title"
+            android:layout_marginLeft="@dimen/medium_margin"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="@dimen/small_margin"
+            android:text="@{skill.subtitle}"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/text_small"
+            android:visibility="@{skill.subtitle != null ? view.VISIBLE : view.INVISIBLE}"
+            />
+
+        <RatingBar
+            android:id="@+id/skill_item_rating"
+            style="@style/RatingBarTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/medium_margin"
+            android:isIndicator="true"
+            android:rating="@{skill.rating/2}"
+            app:starColor='@{true}'
+            />
+    </RelativeLayout>
+</layout>

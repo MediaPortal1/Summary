@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="skill_name">
+        <item>Java</item>
+        <item>Android</item>
+        <item>Kotlin</item>
+    </array>
+    <array name="skill_description">
+        <item>2 years experience</item>
+        <item>1,5 year experince</item>
+        <item>Favorite language</item>
+    </array>
+    <array name="skill_rating">
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+    </array>
+</resources>
